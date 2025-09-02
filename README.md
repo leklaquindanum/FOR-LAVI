@@ -1,7 +1,3 @@
-# FOR-LAVI
-a small yet big anniversary gift
-
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8" />
@@ -288,5 +284,3 @@ a small yet big anniversary gift
     });
     updateScreen();
   </script>
-</body>
-</html>
