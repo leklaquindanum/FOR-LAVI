@@ -19,18 +19,17 @@
       margin: 0;
       font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
       color: var(--text);
-      background: radial-gradient(1200px 800px at 20% 10%, #1b1f44, #0b0e1e 70%),
-                  linear-gradient(135deg, #0c0f22, #0b0e1e);
+      background: radial-gradient(1200px 800px at 20% 10%, pink, rgb(245, 165, 178) 70%),
+                  linear-gradient(135deg, #c21789, #a82893);
       display: grid;
       place-items: center;
       padding: 24px;
     }
     .calc {
       width: min(380px, 92vw);
-      background: linear-gradient(180deg, #1b1f40 0%, #141835 100%);
+      background: linear-gradient(180deg, #c5c5c5 0%, #ffffff 100%);
       border: 1px solid rgba(255,255,255,.06);
-      border-radius: 24px;
-      box-shadow: 0 20px 60px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.05);
+      
       overflow: hidden;
     }
     .header {
@@ -40,6 +39,7 @@
       justify-content: space-between;
     }
     .brand {
+        color: #a82893;
       font-weight: 700;
       letter-spacing: .5px;
       opacity: .9;
@@ -73,13 +73,13 @@
       grid-template-columns: repeat(4, 1fr);
       gap: 10px;
       padding: 16px;
-      background: linear-gradient(180deg, #121530, #10122b);
+      background: linear-gradient(180deg, #c5c5c5, #86126d);
       border-top: 1px solid rgba(255,255,255,.06);
     }
     button {
       appearance: none;
       border: 0;
-      border-radius: 16px;
+      
       padding: 16px 14px;
       font-size: 1.05rem;
       font-weight: 700;
@@ -117,7 +117,7 @@
       width: min(680px, 92vw);
       background: linear-gradient(180deg, #1b1f40, #121531);
       border: 1px solid rgba(255,255,255,.08);
-      border-radius: 24px;
+      
       padding: 28px 24px;
       text-align: center;
       box-shadow: 0 30px 80px rgba(0,0,0,.5);
@@ -135,7 +135,7 @@
       position: absolute;
       top: 8px; right: 8px;
       background: transparent;
-      border-radius: 10px;
+      
       padding: 8px 10px;
       font-weight: 800;
       box-shadow: none;
@@ -189,8 +189,8 @@
   <div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-labelledby="celebrate-title">
     <div class="modal">
       <button class="close" id="close">✕</button>
-      <h1 id="celebrate-title">HAPPY MOTMOT AND ANNIVERSARY</h1>
-      <p>BABY BUBU LAVI</p>
+      <h1 id="celebrate-title">HAPPY MOTMOT AND ANNIVERSARY, MY BABY BUBU LAVI</h1>
+      <p>i love you and tanggap kita. By the time i sent this, either late na or sabayin ko sa next motmot XD. i wanna say that i am very grateful to have you in my life and i wish to spend more time with you physically, as it is our dream. may our anniversary and upcoming motmots be a cherishable moment to us. for our ups and downs, i thank you for staying beside me. read the first sentence again :D labyu ssob  </p>
       <div class="hearts" id="hearts"></div>
     </div>
   </div>
